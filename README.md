@@ -9,6 +9,8 @@ MySQL is used as the database engine for this project. All data is stored in MyS
 The API service was built Flask and Python which points at a MySQL database.
 
 These are the supported methods:
+
+
     /static/<path:filename>
     /api/login
     /api/users
@@ -21,6 +23,7 @@ These are the supported methods:
     /api/card/<int:user_id>/lock-status
     /api/users/<int:user_id>/upload-avatar
     /uploads/<filename>
+
 
 There is a README in the api directory with instructions on how to run this code.
 
