@@ -1,0 +1,9 @@
+MYSQL_USER = ''
+MYSQL_PASSWORD = ''
+MYSQL_HOST = '127.0.0.1'
+MYSQL_PORT = 3306
+MYSQL_DB = 'bingo'
+ALLOWED_EXTENSIONS = {'png', 'jpg', 'jpeg', 'gif'}
+UPLOAD_FOLDER  = "/home/bingo/www-data/uploads"
+AVATAR_FOLDER = "/home/bingo/www-data/avatars"
+SECRET_KEY = 'mysecretkey'
